@@ -1,0 +1,26 @@
+Runtimes
+    extraLargeArray
+    Insert 469.9204 ms
+    Append 1.738 ms
+
+    largeArray
+    Insert 4.5285 ms
+    Append 354.7 μs 
+
+    mediumArray
+    Insert 97.8 μs
+    Append 88.5 μs 
+
+    smallArray
+    Insert 23.6 μs
+    Append 59.2 μs
+
+    tinyArray
+    Insert 16.4 μs
+    Append 57.7 μs
+
+Paragraph
+        How is each function different than eachother, and what patterns are
+    noticed in the runtime results? Well, when you start with the extraLargeArray, the time it takes is higher than all the other arrays.
+    The inserts(unshift) for bigger arrays takes longer to log, but for 
+    appends(push), smaller arrays log slower and inserts finish faster.
